@@ -1,0 +1,79 @@
+[
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "codigo no repetido",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 3
+	},
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "1235",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 4
+	},
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "12356",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 5
+	},
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "hola",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 6
+	},
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "new code ",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 7
+	},
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "new coe ",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 8
+	},
+	{
+		"title": "title de prueba nuevo",
+		"description": "description de prueba",
+		"code": "new ce ",
+		"price": 25,
+		"status": true,
+		"stock": 12,
+		"category": "category de prueba",
+		"thumbnails": [],
+		"id": 9
+	}
+]
