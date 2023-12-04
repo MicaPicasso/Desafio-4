@@ -1,0 +1,105 @@
+/* div{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: start;
+} */
+*{
+    font-family: monospace;
+}
+
+/* products */
+
+.div{
+    padding-top: 20px;
+}
+
+.title-products{
+    text-align: center;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    row-gap: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+li{
+    text-align: center;
+    width: 150px;
+}
+
+/* real-time-products */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.add, .delete, .list-products{
+    width: 400px;
+}
+.add h2, .delete h2, .list-products h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color:rosybrown;
+}
+.add-form .item-form p, .delete-form .item-form p{
+    font-size: 15px;
+}
+.add-form .item-form input, .delete-form .item-form input{
+    width: 200px;
+    height: 30px;
+}
+.item-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#delete, #button{
+    position: relative;
+    left: 300px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px black solid;
+    font-size: 17px;
+}
+#delete:hover, #button:hover{
+    background-color: rosybrown;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.list-products{
+    
+}
+
+.line{
+    margin-bottom: 1px solid black;
+}
+
+#resp{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#div{
+    font-size: 12px;
+}
+#div .line{
+    border-bottom: 2px solid rosybrown;
+}
+#div h2{
+    color:black;
+}

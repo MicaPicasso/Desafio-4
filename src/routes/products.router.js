@@ -67,4 +67,6 @@ router.delete("/:pid", (req,res)=>{
     productManager.deleteProduct(Number(pid))
 })
 
+
+
 export default router

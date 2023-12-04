@@ -1,0 +1,53 @@
+<div class="container">
+
+
+<div class="add">
+<h2>Añadir un nuevo producto</h2>
+<form action="" class="add-form">
+    <div class="item-form">
+        <p>TITLE:</p>
+        <input type="text" name="title" id="title">
+    </div>
+    <div class="item-form">
+        <p>DESCRIPTION:</p>
+        <input type="text" name="description" id="description">
+    </div>
+    <div class="item-form">
+        <p>PRICE:</p>
+        <input type="number" name="price" id="price">
+    </div>
+    <div class="item-form">
+        <p>STOCK:</p>
+        <input type="number" name="stock" id="stock">
+    </div>
+    <div class="item-form">
+        <p>CATEGORY:</p>
+        <input type="text" name="category" id="category">
+    </div>
+        <input type="submit" value="Agregar" id="button">
+</form>
+</div> 
+
+<div class="delete">
+<h2>Eliminar producto</h2>
+<form action="" class="delete-form">
+    <div class="item-form">
+    <p>NOMBRE DEL PRODUCTO:</p>
+    <input type="text" name="title" id="title-delete">
+    </div>
+    <input type="submit" value="Eliminar" id="delete">
+</form>   
+    <p id="resp"></p>
+</div>  
+
+
+<div class="list-products">
+    <h2>Lista de productos</h2>
+<div id="div">
+    
+</div>
+</div>
+
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/formproducts.js"></script>
